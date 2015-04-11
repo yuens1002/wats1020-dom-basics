@@ -1,0 +1,13 @@
+/* Fortune Cookie Generator Styles */
+
+html {
+    text-align: center;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fortune-cookie-saying-wrapper {
+    border: 1px solid #666;
+    padding: 1em;
+    margin: 1em;
+}
