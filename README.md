@@ -14,7 +14,7 @@ requirements:
 * Add an `onclick` attribute to the "Make My Fortune!" button so it executes the `generateFortuneCookie()` function when it is clicked.
 * In the `fortune-cookie-generator.js` create the logic to display a fortune:
     * Select the `#fortune-cookie-text` element.
-    * Append the current text in the `#fortune-cookie-text` element as a list item (`li`) within the `#previous-fortune-cookies` list.
+    * Append the current text in the `#fortune-cookie-text` element as a list item (`li`) within the `#previous-fortunes-container` list.
     * Select a random fortune cookie saying from the `fortunesList` Array.
     * Replace the `innerText` of the `#fortune-cookie-text` element with the data you selected from `fortunesList`.
 * Make sure a fortune is generated each time the user clicks the button.
