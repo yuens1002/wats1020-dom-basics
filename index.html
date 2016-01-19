@@ -16,10 +16,10 @@
         <div class="fortune-cookie-saying-wrapper">
             <p id="fortune-cookie-text">Click the button to generate a saying.</p>
         </div>
-        <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
-        <button class="generate-button">
+        <button class="generate-button" onclick="generateFortuneCookie();">
             Make My Fortune!
         </button>
+        <div id="msg" class="hide">Sorry, All fortunes have been told</div>
         <hr>
         <h2>Previous Fortunes</h2>
         <ul id="previous-fortunes-container">
